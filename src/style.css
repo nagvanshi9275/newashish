@@ -1,0 +1,132 @@
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './dark-theme.css';
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+
+  background-color: black;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+
+.custom-input{
+
+
+max-width:500px;
+
+
+
+}
+
+
+.entr{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.para{
+color: red;
+font-size: 1.5rem;
+
+
+}
+
+@media (max-width: 800px) {
+  .custom-height {
+    height: 180vh; /* Adjust the height as needed */
+  }
+}
+
+#container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+@media (min-width: 768px){
+    
+   #form-control{
+
+    width: 70vw;
+
+
+
+   }
+
+
+
+
+}
+
+
+.sunder{
+color: white;
+border: 1px solid white;
+display: flex;
+align-items: center;
+border-radius: 12px
+
+}
+
+
+
+.rahul{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+#x{
+
+width: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
